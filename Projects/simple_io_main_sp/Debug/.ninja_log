@@ -1,0 +1,5 @@
+# ninja log v5
+1	376	6359062212701081	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_main_sp/Debug/Obj/startup_TM4C1294.o	4f59d229a64471ac
+326	476	6359062213561095	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	941cbf36ebe028f9
+319	519	6359062213971071	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_main_sp/Debug/Obj/system_TM4C1294_TW.o	3f33403b2c2c16ee
+535	1265	6359062221451085	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	251f270886b1a9a1
