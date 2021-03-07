@@ -1,0 +1,7 @@
+# ninja log v5
+1	474	6365986724002961	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_matrix/Debug/Obj/startup_TM4C1294.o	7e5f743f20b39353
+392	1112	6365986730182990	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_matrix/Debug/Obj/fsm_matrix.o	b12b52f6d78aaec1
+387	1131	6365986730162945	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_matrix/Debug/Obj/system_TM4C1294_TW.o	119ac90714cfbeba
+382	1151	6365986730172931	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_matrix/Debug/Obj/driverbuttons.o	e34dbc5c29392fc0
+481	1170	6365986730162945	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_matrix/Debug/Obj/driverleds.o	dde2a526a294d216
+1189	2021	6365986739333355	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_matrix/Debug/Exe/fsm_matrix.out	47cbefd924541751

@@ -7,7 +7,7 @@
 // MEF com apenas 2 estados e 1 evento temporal que alterna entre eles
 // Seleção por evento
 
-typedef enum {Desligado, Ligado} state_t;
+#define CHECK_BIT(var,pos) !!((var) & (1<<(pos)))
 
 volatile uint8_t Evento = 0;
 
@@ -15,25 +15,60 @@ void SysTick_Handler(void){
   Evento = 1;
 } // SysTick_Handler
 
+void setLeds(int valor){
+  if(CHECK_BIT(valor,0)) LEDOn(LED3); else LEDOff(LED3);
+  if(CHECK_BIT(valor,1)) LEDOn(LED2); else LEDOff(LED2);
+  if(CHECK_BIT(valor,2)) LEDOn(LED1); else LEDOff(LED1);
+}
+
+static int Estado[] = {0, 1, 3, 2, 6, 7, 5, 4};
+
 void main(void){
-  static state_t Estado = Desligado; // estado inicial da MEF
-  
+  static int pos = 0; // estado inicial da MEF
+
   LEDInit(LED1);
+  LEDInit(LED2);
+  LEDInit(LED3);
   SysTickPeriodSet(12000000); // f = 1Hz para clock = 24MHz
   SysTickIntEnable();
   SysTickEnable();
 
   while(1){
+    if(pos > 7) pos = 0;
     if(Evento){
       Evento = 0;
-      switch(Estado){
-        case Desligado:
-          LEDOff(LED1);
-          Estado = Ligado;
+      switch(Estado[pos]){
+        case 0:
+          setLeds(Estado[pos]);
+          pos++;
           break;
-        case Ligado:
-          LEDOn(LED1);
-          Estado = Desligado;
+        case 1:
+          setLeds(Estado[pos]);
+          pos++;
+          break;
+        case 3:
+          setLeds(Estado[pos]);
+          pos++;
+          break;
+        case 2:
+          setLeds(Estado[pos]);
+          pos++;
+          break;
+        case 6:
+          setLeds(Estado[pos]);
+          pos++;
+          break;
+        case 7:
+          setLeds(Estado[pos]);
+          pos++;
+          break;
+        case 5:
+          setLeds(Estado[pos]);
+          pos++;
+          break;
+        case 4:
+          setLeds(Estado[pos]);
+          pos++;
           break;
       } // switch
     } // if

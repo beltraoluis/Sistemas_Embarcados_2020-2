@@ -38,7 +38,7 @@ void main(void){
 
   SysTickIntEnable();
   SysTickEnable();
-
+  
   while(1){
     if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == GPIO_PIN_0) // Testa estado do push-button SW1
       GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, 0); // Apaga LED D3

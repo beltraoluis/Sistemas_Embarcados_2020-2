@@ -1,0 +1,15 @@
+# ninja log v5
+1	466	6359939038765316	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Obj/startup_TM4C1294.o	b08f36b31ea8f610
+391	762	6359939041515310	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Obj/simple_io_process_sp.o	5dedda47115f597a
+384	833	6359939042205299	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Obj/system_TM4C1294_TW.o	34e1e400a06ae51
+850	993	6359939043873790	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Exe/simple_io_process_sp.out	60a624c096b5d9bd
+4	325	6359942423562607	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Obj/simple_io_process_sp.o	bb2166a513cde1ab
+12	383	6359942424152601	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Obj/system_TM4C1294_TW.o	5dc4a5229b7c8c1b
+401	530	6359942425572604	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Exe/simple_io_process_sp.out	60a624c096b5d9bd
+3	283	6365214314800615	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Obj/simple_io_process_sp.o	bb2166a513cde1ab
+297	443	6365214316400610	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Exe/simple_io_process_sp.out	60a624c096b5d9bd
+3	132	6365214855886946	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Obj/simple_io_process_sp.o	bb2166a513cde1ab
+145	260	6365214857126928	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Exe/simple_io_process_sp.out	60a624c096b5d9bd
+10	285	6365216409180149	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Obj/simple_io_process_sp.o	5dedda47115f597a
+4	376	6365216410050157	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Obj/system_TM4C1294_TW.o	34e1e400a06ae51
+391	515	6365216411450138	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/simple_io_process_sp/Debug/Exe/simple_io_process_sp.out	60a624c096b5d9bd

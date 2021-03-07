@@ -1,0 +1,11 @@
+# ninja log v5
+11	91	6365996071217153	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Obj/startup_TM4C1294.o	650df6769c7d6417
+1	403	6365996074197138	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Obj/driverleds.o	a59a6676b4442949
+22	476	6365996074857141	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Obj/system_TM4C1294_TW.o	d65bb1fc401f3e2f
+2	124	6365997777116058	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Obj/fsm_event.o	9d379bd70c993060
+138	273	6365997778536055	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Exe/fsm_event.out	696644eac8c8a9f9
+3	238	6368570555307999	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Obj/fsm_event.o	9d379bd70c993060
+252	1156	6368570564358018	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Exe/fsm_event.out	696644eac8c8a9f9
+4	267	6368573969667998	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Obj/fsm_event.o	9d379bd70c993060
+3	132	6368574817178238	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Obj/fsm_event.o	9d379bd70c993060
+146	271	6368574818508226	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/Projects/fsm_event/Debug/Exe/fsm_event.out	696644eac8c8a9f9
