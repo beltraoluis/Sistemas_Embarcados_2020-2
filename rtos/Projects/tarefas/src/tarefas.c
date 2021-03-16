@@ -2,6 +2,18 @@
 #include "driverleds.h" // device drivers
 #include "cmsis_os2.h" // CMSIS-RTOS
 
+/**
+ *  - OS_TICK_FREQ define a frequencia do tick do sistema e alterar esse valor 
+ *    de 1000 para 500 fez com que os led poscassem mais devagar
+ *    
+ *  - OS_THREAD_NUM define o número máximo de threads no projeto
+ *
+ *  - OS_THREAD_DEF_STACK_NUM define o número de threads com o tamanho padrão de 
+ *    pilha
+*   - O periodo de ativação das threads antes da modificação era de aproximada-
+ *    mente 100ms e após a modificação passou para cerca de 200ms
+ */
+
 osThreadId_t thread1_id, thread2_id;
 
 void thread1(void *arg){
