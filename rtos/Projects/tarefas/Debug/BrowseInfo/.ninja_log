@@ -1,0 +1,16 @@
+# ninja log v5
+58	662	6376388870000000	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/tarefas.xcl	aa2d8b37546a9faf
+2	688	6376388870000000	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/rtx_lib.xcl	cba0e7414a0eb722
+50	740	6376388870000000	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/driverleds.xcl	90cb22902193aa95
+44	764	6376388870000000	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/RTX_Config.xcl	ec01038896452b7d
+685	908	6376388870000000	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/system_TM4C1294_TW.xcl	9fb3c72ff3f5a4df
+761	1137	6376388880747368	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/driverleds.pbi	b53bfbae113a69ca
+789	1227	6376388881617371	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/RTX_Config.pbi	59a731cfba8f443c
+1145	1275	6376388881957374	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/tarefas.pbi	70cff3b1210dbe7c
+932	1288	6376388881967359	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/system_TM4C1294_TW.pbi	f7595708ca5e10ca
+713	1295	6376388882007378	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/rtx_lib.pbi	12a4cff7813245cd
+1282	1314	6376388882487367	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/tarefas_part2.pbi	aa1959a67a37c565
+1235	1321	6376388882527381	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/tarefas_part0.pbi	48f775dba21583a9
+1301	1369	6376388883067396	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/tarefas_part1.pbi	381f10214c2c0511
+1377	1443	6376388883817375	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/tarefas.pbd	eaf4526e64456c33
+1452	4422	6376388913267365	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/Projects/tarefas/Debug/BrowseInfo/tarefas.pbw	bb541d36b12c8006
