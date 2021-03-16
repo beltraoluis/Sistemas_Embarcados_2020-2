@@ -49444,7 +49444,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@1771@macro@OS_ROBIN_ENABLE",
+    "ID": "c:RTX_Config.h@1770@macro@OS_ROBIN_ENABLE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_ROBIN_ENABLE",
@@ -49458,7 +49458,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@1984@macro@OS_ROBIN_TIMEOUT",
+    "ID": "c:RTX_Config.h@1983@macro@OS_ROBIN_TIMEOUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_ROBIN_TIMEOUT",
@@ -49472,7 +49472,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@2445@macro@OS_ISR_FIFO_QUEUE",
+    "ID": "c:RTX_Config.h@2444@macro@OS_ISR_FIFO_QUEUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_ISR_FIFO_QUEUE",
@@ -49486,7 +49486,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@2632@macro@OS_OBJ_MEM_USAGE",
+    "ID": "c:RTX_Config.h@2631@macro@OS_OBJ_MEM_USAGE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_OBJ_MEM_USAGE",
@@ -49500,7 +49500,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@2865@macro@OS_THREAD_OBJ_MEM",
+    "ID": "c:RTX_Config.h@2864@macro@OS_THREAD_OBJ_MEM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_THREAD_OBJ_MEM",
@@ -49514,7 +49514,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@3146@macro@OS_THREAD_NUM",
+    "ID": "c:RTX_Config.h@3145@macro@OS_THREAD_NUM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_THREAD_NUM",
@@ -49528,7 +49528,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@3433@macro@OS_THREAD_DEF_STACK_NUM",
+    "ID": "c:RTX_Config.h@3432@macro@OS_THREAD_DEF_STACK_NUM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_THREAD_DEF_STACK_NUM",
@@ -49542,7 +49542,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@3829@macro@OS_THREAD_USER_STACK_SIZE",
+    "ID": "c:RTX_Config.h@3828@macro@OS_THREAD_USER_STACK_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_THREAD_USER_STACK_SIZE",
@@ -49556,7 +49556,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@4064@macro@OS_STACK_SIZE",
+    "ID": "c:RTX_Config.h@4063@macro@OS_STACK_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_STACK_SIZE",
@@ -49570,7 +49570,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@4271@macro@OS_IDLE_THREAD_STACK_SIZE",
+    "ID": "c:RTX_Config.h@4270@macro@OS_IDLE_THREAD_STACK_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_IDLE_THREAD_STACK_SIZE",
@@ -49584,7 +49584,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@4555@macro@OS_IDLE_THREAD_TZ_MOD_ID",
+    "ID": "c:RTX_Config.h@4554@macro@OS_IDLE_THREAD_TZ_MOD_ID",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_IDLE_THREAD_TZ_MOD_ID",
@@ -49598,7 +49598,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@4799@macro@OS_STACK_CHECK",
+    "ID": "c:RTX_Config.h@4798@macro@OS_STACK_CHECK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_STACK_CHECK",
@@ -49612,7 +49612,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@5080@macro@OS_STACK_WATERMARK",
+    "ID": "c:RTX_Config.h@5079@macro@OS_STACK_WATERMARK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_STACK_WATERMARK",
@@ -49626,7 +49626,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@5291@macro@OS_PRIVILEGE_MODE",
+    "ID": "c:RTX_Config.h@5290@macro@OS_PRIVILEGE_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_PRIVILEGE_MODE",
@@ -49640,7 +49640,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@5521@macro@OS_TIMER_OBJ_MEM",
+    "ID": "c:RTX_Config.h@5520@macro@OS_TIMER_OBJ_MEM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_TIMER_OBJ_MEM",
@@ -49654,7 +49654,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@5792@macro@OS_TIMER_NUM",
+    "ID": "c:RTX_Config.h@5791@macro@OS_TIMER_NUM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_TIMER_NUM",
@@ -49668,7 +49668,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@6093@macro@OS_TIMER_THREAD_PRIO",
+    "ID": "c:RTX_Config.h@6092@macro@OS_TIMER_THREAD_PRIO",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_TIMER_THREAD_PRIO",
@@ -49682,7 +49682,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@6352@macro@OS_TIMER_THREAD_STACK_SIZE",
+    "ID": "c:RTX_Config.h@6351@macro@OS_TIMER_THREAD_STACK_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_TIMER_THREAD_STACK_SIZE",
@@ -49696,7 +49696,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@6638@macro@OS_TIMER_THREAD_TZ_MOD_ID",
+    "ID": "c:RTX_Config.h@6637@macro@OS_TIMER_THREAD_TZ_MOD_ID",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_TIMER_THREAD_TZ_MOD_ID",
@@ -49710,7 +49710,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@6890@macro@OS_TIMER_CB_QUEUE",
+    "ID": "c:RTX_Config.h@6889@macro@OS_TIMER_CB_QUEUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_TIMER_CB_QUEUE",
@@ -49724,7 +49724,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@7134@macro@OS_EVFLAGS_OBJ_MEM",
+    "ID": "c:RTX_Config.h@7133@macro@OS_EVFLAGS_OBJ_MEM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVFLAGS_OBJ_MEM",
@@ -49738,7 +49738,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@7413@macro@OS_EVFLAGS_NUM",
+    "ID": "c:RTX_Config.h@7412@macro@OS_EVFLAGS_NUM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVFLAGS_NUM",
@@ -49752,7 +49752,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@7655@macro@OS_MUTEX_OBJ_MEM",
+    "ID": "c:RTX_Config.h@7654@macro@OS_MUTEX_OBJ_MEM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_MUTEX_OBJ_MEM",
@@ -49766,7 +49766,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@7926@macro@OS_MUTEX_NUM",
+    "ID": "c:RTX_Config.h@7925@macro@OS_MUTEX_NUM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_MUTEX_NUM",
@@ -49780,7 +49780,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@8180@macro@OS_SEMAPHORE_OBJ_MEM",
+    "ID": "c:RTX_Config.h@8179@macro@OS_SEMAPHORE_OBJ_MEM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_SEMAPHORE_OBJ_MEM",
@@ -49794,7 +49794,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@8459@macro@OS_SEMAPHORE_NUM",
+    "ID": "c:RTX_Config.h@8458@macro@OS_SEMAPHORE_NUM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_SEMAPHORE_NUM",
@@ -49808,7 +49808,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@8715@macro@OS_MEMPOOL_OBJ_MEM",
+    "ID": "c:RTX_Config.h@8714@macro@OS_MEMPOOL_OBJ_MEM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_MEMPOOL_OBJ_MEM",
@@ -49822,7 +49822,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@8994@macro@OS_MEMPOOL_NUM",
+    "ID": "c:RTX_Config.h@8993@macro@OS_MEMPOOL_NUM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_MEMPOOL_NUM",
@@ -49836,7 +49836,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@9286@macro@OS_MEMPOOL_DATA_SIZE",
+    "ID": "c:RTX_Config.h@9285@macro@OS_MEMPOOL_DATA_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_MEMPOOL_DATA_SIZE",
@@ -49850,7 +49850,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@9547@macro@OS_MSGQUEUE_OBJ_MEM",
+    "ID": "c:RTX_Config.h@9546@macro@OS_MSGQUEUE_OBJ_MEM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_MSGQUEUE_OBJ_MEM",
@@ -49864,7 +49864,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@9829@macro@OS_MSGQUEUE_NUM",
+    "ID": "c:RTX_Config.h@9828@macro@OS_MSGQUEUE_NUM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_MSGQUEUE_NUM",
@@ -49878,7 +49878,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@10122@macro@OS_MSGQUEUE_DATA_SIZE",
+    "ID": "c:RTX_Config.h@10121@macro@OS_MSGQUEUE_DATA_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_MSGQUEUE_DATA_SIZE",
@@ -49892,7 +49892,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@10377@macro@OS_EVR_INIT",
+    "ID": "c:RTX_Config.h@10376@macro@OS_EVR_INIT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_INIT",
@@ -49906,7 +49906,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@10526@macro@OS_EVR_START",
+    "ID": "c:RTX_Config.h@10525@macro@OS_EVR_START",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_START",
@@ -49920,7 +49920,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@10847@macro@OS_EVR_LEVEL",
+    "ID": "c:RTX_Config.h@10846@macro@OS_EVR_LEVEL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_LEVEL",
@@ -49934,7 +49934,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@11354@macro@OS_EVR_MEMORY_FILTER",
+    "ID": "c:RTX_Config.h@11353@macro@OS_EVR_MEMORY_FILTER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_MEMORY_FILTER",
@@ -49948,7 +49948,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@11669@macro@OS_EVR_KERNEL_FILTER",
+    "ID": "c:RTX_Config.h@11668@macro@OS_EVR_KERNEL_FILTER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_KERNEL_FILTER",
@@ -49962,7 +49962,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@11984@macro@OS_EVR_THREAD_FILTER",
+    "ID": "c:RTX_Config.h@11983@macro@OS_EVR_THREAD_FILTER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_THREAD_FILTER",
@@ -49976,7 +49976,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@12296@macro@OS_EVR_TIMER_FILTER",
+    "ID": "c:RTX_Config.h@12295@macro@OS_EVR_TIMER_FILTER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_TIMER_FILTER",
@@ -49990,7 +49990,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@12622@macro@OS_EVR_EVFLAGS_FILTER",
+    "ID": "c:RTX_Config.h@12621@macro@OS_EVR_EVFLAGS_FILTER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_EVFLAGS_FILTER",
@@ -50004,7 +50004,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@12934@macro@OS_EVR_MUTEX_FILTER",
+    "ID": "c:RTX_Config.h@12933@macro@OS_EVR_MUTEX_FILTER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_MUTEX_FILTER",
@@ -50018,7 +50018,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@13258@macro@OS_EVR_SEMAPHORE_FILTER",
+    "ID": "c:RTX_Config.h@13257@macro@OS_EVR_SEMAPHORE_FILTER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_SEMAPHORE_FILTER",
@@ -50032,7 +50032,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@13584@macro@OS_EVR_MEMPOOL_FILTER",
+    "ID": "c:RTX_Config.h@13583@macro@OS_EVR_MEMPOOL_FILTER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_MEMPOOL_FILTER",
@@ -50046,7 +50046,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@13915@macro@OS_EVR_MSGQUEUE_FILTER",
+    "ID": "c:RTX_Config.h@13914@macro@OS_EVR_MSGQUEUE_FILTER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_MSGQUEUE_FILTER",
@@ -50060,7 +50060,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@14213@macro@OS_EVR_MEMORY",
+    "ID": "c:RTX_Config.h@14212@macro@OS_EVR_MEMORY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_MEMORY",
@@ -50074,7 +50074,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@14343@macro@OS_EVR_KERNEL",
+    "ID": "c:RTX_Config.h@14342@macro@OS_EVR_KERNEL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_KERNEL",
@@ -50088,7 +50088,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@14473@macro@OS_EVR_THREAD",
+    "ID": "c:RTX_Config.h@14472@macro@OS_EVR_THREAD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_THREAD",
@@ -50102,7 +50102,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@14600@macro@OS_EVR_TIMER",
+    "ID": "c:RTX_Config.h@14599@macro@OS_EVR_TIMER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_TIMER",
@@ -50116,7 +50116,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@14741@macro@OS_EVR_EVFLAGS",
+    "ID": "c:RTX_Config.h@14740@macro@OS_EVR_EVFLAGS",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_EVFLAGS",
@@ -50130,7 +50130,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@14869@macro@OS_EVR_MUTEX",
+    "ID": "c:RTX_Config.h@14868@macro@OS_EVR_MUTEX",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_MUTEX",
@@ -50144,7 +50144,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@15008@macro@OS_EVR_SEMAPHORE",
+    "ID": "c:RTX_Config.h@15007@macro@OS_EVR_SEMAPHORE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_SEMAPHORE",
@@ -50158,7 +50158,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@15149@macro@OS_EVR_MEMPOOL",
+    "ID": "c:RTX_Config.h@15148@macro@OS_EVR_MEMPOOL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_MEMPOOL",
@@ -50172,7 +50172,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@15295@macro@OS_EVR_MSGQUEUE",
+    "ID": "c:RTX_Config.h@15294@macro@OS_EVR_MSGQUEUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_EVR_MSGQUEUE",
@@ -50186,7 +50186,7 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@15513@macro@OS_THREAD_LIBSPACE_NUM",
+    "ID": "c:RTX_Config.h@15512@macro@OS_THREAD_LIBSPACE_NUM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OS_THREAD_LIBSPACE_NUM",
@@ -64270,7 +64270,7 @@
     "display": "thread1_id",
     "location": {
       "column": "14",
-      "line": "5",
+      "line": "17",
       "path": "C:\\Users\\beltraoluis\\git\\Sistemas_Embarcados_2020-2\\rtos\\Projects\\tarefas\\src\\tarefas.c"
     },
     "name": "thread1_id",
@@ -64284,7 +64284,7 @@
     "display": "thread2_id",
     "location": {
       "column": "26",
-      "line": "5",
+      "line": "17",
       "path": "C:\\Users\\beltraoluis\\git\\Sistemas_Embarcados_2020-2\\rtos\\Projects\\tarefas\\src\\tarefas.c"
     },
     "name": "thread2_id",
@@ -64298,7 +64298,7 @@
     "display": "void thread1(void *)",
     "location": {
       "column": "6",
-      "line": "7",
+      "line": "19",
       "path": "C:\\Users\\beltraoluis\\git\\Sistemas_Embarcados_2020-2\\rtos\\Projects\\tarefas\\src\\tarefas.c"
     },
     "name": "thread1",
@@ -64306,13 +64306,13 @@
     "scope": null
   },
   {
-    "ID": "c:tarefas.c@188@F@thread1@state",
+    "ID": "c:tarefas.c@676@F@thread1@state",
     "What": "Variable",
     "defdec": "Def",
     "display": "state",
     "location": {
       "column": "11",
-      "line": "8",
+      "line": "20",
       "path": "C:\\Users\\beltraoluis\\git\\Sistemas_Embarcados_2020-2\\rtos\\Projects\\tarefas\\src\\tarefas.c"
     },
     "name": "state",
@@ -64326,7 +64326,7 @@
     "display": "void thread2(void *)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "29",
       "path": "C:\\Users\\beltraoluis\\git\\Sistemas_Embarcados_2020-2\\rtos\\Projects\\tarefas\\src\\tarefas.c"
     },
     "name": "thread2",
@@ -64334,13 +64334,13 @@
     "scope": null
   },
   {
-    "ID": "c:tarefas.c@340@F@thread2@state",
+    "ID": "c:tarefas.c@838@F@thread2@state",
     "What": "Variable",
     "defdec": "Def",
     "display": "state",
     "location": {
       "column": "11",
-      "line": "18",
+      "line": "30",
       "path": "C:\\Users\\beltraoluis\\git\\Sistemas_Embarcados_2020-2\\rtos\\Projects\\tarefas\\src\\tarefas.c"
     },
     "name": "state",
@@ -64348,13 +64348,13 @@
     "scope": null
   },
   {
-    "ID": "c:tarefas.c@361@F@thread2@tick",
+    "ID": "c:tarefas.c@860@F@thread2@tick",
     "What": "Variable",
     "defdec": "Def",
     "display": "tick",
     "location": {
       "column": "12",
-      "line": "19",
+      "line": "31",
       "path": "C:\\Users\\beltraoluis\\git\\Sistemas_Embarcados_2020-2\\rtos\\Projects\\tarefas\\src\\tarefas.c"
     },
     "name": "tick",
@@ -64368,7 +64368,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "31",
+      "line": "43",
       "path": "C:\\Users\\beltraoluis\\git\\Sistemas_Embarcados_2020-2\\rtos\\Projects\\tarefas\\src\\tarefas.c"
     },
     "name": "main",

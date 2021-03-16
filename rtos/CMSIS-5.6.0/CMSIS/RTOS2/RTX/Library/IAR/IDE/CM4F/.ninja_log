@@ -1,0 +1,16 @@
+# ninja log v5
+21	501	6376408057070418	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Handlers/irq_cm4f.o	24df5286c55788e2
+1	667	6376408058430454	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/os_systick.o	f11410e0fb03a234
+9	757	6376408059340475	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_delay.o	c91917ec7bfc5893
+510	916	6376408060980450	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_memory.o	15caa1ed1b28ffc
+14	1151	6376408063330470	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evflags.o	c1840552498fc51d
+781	1637	6376408068130478	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mempool.o	16e273f6124b356e
+1175	1693	6376408068570432	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evr.o	a841fe1429befc2
+941	1849	6376408070240434	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_kernel.o	450b5f604fb76ff7
+692	1876	6376408070310447	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_msgqueue.o	471f485f6eef41bd
+1720	2196	6376408073820455	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_system.o	b02c15928b675a06
+1662	2468	6376408076530481	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mutex.o	297d862a60947131
+1872	2515	6376408076880414	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_timer.o	aa457091aae79002
+2222	2823	6376408080090460	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_semaphore.o	28ee77c09ee45535
+1901	3742	6376408089280428	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_thread.o	bf628300d5df28df
+3764	3807	6376408090140444	C:/Users/beltraoluis/git/Sistemas_Embarcados_2020-2/rtos/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Exe/RTX_CM.a	24cb3a9b05817f56
