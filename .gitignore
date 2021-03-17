@@ -51,7 +51,8 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-#manual
+#iar
+*.dep
 *.wsdt
 */Debug/*
 */ewarm/*
