@@ -2,51 +2,38 @@
 #include "driverleds.h" // device drivers
 #include "cmsis_os2.h" // CMSIS-RTOS
 
-/**
- *  - OS_TICK_FREQ define a frequencia do tick do sistema e alterar esse valor 
- *    de 1000 para 500 fez com que os led poscassem mais devagar
- *    
- *  - OS_THREAD_NUM define o número máximo de threads no projeto
- *
- *  - OS_THREAD_DEF_STACK_NUM define o número de threads com o tamanho padrão de 
- *    pilha
-*   - O periodo de ativação das threads antes da modificação era de aproximada-
- *    mente 100ms e após a modificação passou para cerca de 200ms
- */
+osThreadId_t blink_id1, blink_id2;
 
-osThreadId_t thread1_id, thread2_id;
+typedef struct blink_param{
+  uint8_t led;
+  uint32_t delay;
+} BlinkParam;
 
-void thread1(void *arg){
-  uint8_t state = 0;
-  
-  while(1){
-    state ^= LED1;
-    LEDWrite(LED1, state);
-    osDelay(100);
-  } // while
-} // thread1
+BlinkParam d1 = {LED1, 100}; 
+BlinkParam d2 = {LED2, 100}; 
 
-void thread2(void *arg){
+void blinkTask(void *arg){
   uint8_t state = 0;
   uint32_t tick;
+  BlinkParam *params = (BlinkParam *) arg;
   
   while(1){
     tick = osKernelGetTickCount();
     
-    state ^= LED2;
-    LEDWrite(LED2, state);
+    state ^= params->led;
+    LEDWrite(params->led, state);
     
-    osDelayUntil(tick + 100);
+    osDelayUntil(tick + params->delay);
   } // while
-} // thread2
+} // blink
 
 void main(void){
-  LEDInit(LED2 | LED1);
+  LEDInit(LED4 | LED3 | LED2 | LED1);
 
   osKernelInitialize();
 
-  thread1_id = osThreadNew(thread1, NULL, NULL);
-  thread2_id = osThreadNew(thread2, NULL, NULL);
+  blink_id1 = osThreadNew(blinkTask, &d1, NULL);
+  blink_id2 = osThreadNew(blinkTask, &d2, NULL);
 
   if(osKernelGetState() == osKernelReady)
     osKernelStart();
