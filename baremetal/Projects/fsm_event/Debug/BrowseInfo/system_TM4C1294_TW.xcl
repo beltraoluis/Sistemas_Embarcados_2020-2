@@ -1,19 +1,19 @@
-"C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\src\system_TM4C1294_TW.c"
+"C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\src\system_TM4C1294_TW.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\Debug\BrowseInfo\system_TM4C1294_TW.pbi.dep
+C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\Debug\BrowseInfo\system_TM4C1294_TW.pbi.dep
 -o
-C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\Debug\BrowseInfo\system_TM4C1294_TW.pbi
+C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\Debug\BrowseInfo\system_TM4C1294_TW.pbi
 -I
-C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\src
+C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\src
 -I
-C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\..\drivers
+C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\..\drivers
 -I
-C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\..\..\TivaWare_C_Series-2.1.4.178
+C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\..\..\TivaWare_C_Series-2.1.4.178
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include\
 -I
@@ -25,9 +25,9 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\drivers
+C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\drivers
 -I
-C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\TivaWare_C_Series-2.1.4.178
+C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\TivaWare_C_Series-2.1.4.178
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include
 -I

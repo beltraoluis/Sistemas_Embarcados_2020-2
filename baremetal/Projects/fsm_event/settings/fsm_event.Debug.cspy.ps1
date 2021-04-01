@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\settings\fsm_event.Debug.general.xcl" --backend -f "C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\settings\fsm_event.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\settings\fsm_event.Debug.general.xcl" --backend -f "C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\settings\fsm_event.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\settings\fsm_event.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\Projects\fsm_event\settings\fsm_event.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\settings\fsm_event.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\beltraoluis\git\Sistemas_Embarcados_2020-2\baremetal\Projects\fsm_event\settings\fsm_event.Debug.driver.xcl" 
 }
