@@ -7,33 +7,42 @@
 #include "inc/hw_ints.h"
 
 #define CHECK_BIT(var,pos) !!((var) & (1<<(pos)))
+#define BUFFER_SIZE 8
 
-osThreadId_t task;
-osMutexId_t mutex;
+osThreadId_t taskLed, taskDelay;
+osSemaphoreId_t ledSemaphore, delaySemaphore;
 
-const osMutexAttr_t attr = {
-  "LedMutex",                               // human readable mutex name
-  osMutexRecursive | osMutexPrioInherit,    // attr_bits
-  NULL,                                     // memory for control block   
-  0U                                        // size for control block
-  };
 
 int count = 0;
+bool debounce = false;
+uint32_t tick;
 
 void setLeds(void *arg){
   while(1) {
-    osMutexAcquire(mutex, osWaitForever);
+    osSemaphoreAcquire(ledSemaphore, osWaitForever);
     if(CHECK_BIT(count,0)) LEDOn(LED4); else LEDOff(LED4);
     if(CHECK_BIT(count,1)) LEDOn(LED3); else LEDOff(LED3);
     if(CHECK_BIT(count,2)) LEDOn(LED2); else LEDOff(LED2);
     if(CHECK_BIT(count,3)) LEDOn(LED1); else LEDOff(LED1);
+    debounce = false;
+  }
+}
+
+void ledDelay(void *arg){
+  while(1) {
+    osSemaphoreAcquire(delaySemaphore, osWaitForever);
+    tick = osKernelGetTickCount();
+    osDelayUntil(tick + 250);
+    osSemaphoreRelease(ledSemaphore);
   }
 }
 
 void GPIOJ_Handler(){
-  count++;
-  osMutexRelease(mutex);
   ButtonIntClear(USW1);
+  if (debounce) return;
+  debounce = true;
+  count++;
+  osSemaphoreRelease(delaySemaphore);
 }
 
 void main(void){
@@ -44,10 +53,12 @@ void main(void){
 
   osKernelInitialize();
   
-  task = osThreadNew(setLeds, NULL, NULL);
-  mutex = osMutexNew(&attr);
+  taskLed = osThreadNew(setLeds, NULL, NULL);
+  taskDelay = osThreadNew(ledDelay, NULL, NULL);
+  ledSemaphore = osSemaphoreNew(BUFFER_SIZE, 0, NULL);
+  delaySemaphore = osSemaphoreNew(BUFFER_SIZE, 0, NULL);
   
-   if(osKernelGetState() == osKernelReady) osKernelStart();
+  if(osKernelGetState() == osKernelReady) osKernelStart();
 
   while(1);
 } // main
