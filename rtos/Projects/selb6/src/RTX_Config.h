@@ -51,7 +51,7 @@
 //   <i> Defines base time unit for delays and timeouts.
 //   <i> Default: 1000 (1ms tick)
 #ifndef OS_TICK_FREQ
-#define OS_TICK_FREQ                1000
+#define OS_TICK_FREQ                100000
 #endif
  
 //   <e>Round-Robin Thread switching
@@ -100,14 +100,14 @@
 //     <i> Defines maximum number of user threads that can be active at the same time.
 //     <i> Applies to user threads with system provided memory for control blocks.
 #ifndef OS_THREAD_NUM
-#define OS_THREAD_NUM               5
+#define OS_THREAD_NUM               7
 #endif
  
 //     <o>Number of user Threads with default Stack size <0-1000>
 //     <i> Defines maximum number of user threads with default stack size.
 //     <i> Applies to user threads with zero stack size specified.
 #ifndef OS_THREAD_DEF_STACK_NUM
-#define OS_THREAD_DEF_STACK_NUM     5
+#define OS_THREAD_DEF_STACK_NUM     7
 #endif
  
 //     <o>Total Stack size [bytes] for user Threads with user-provided Stack size <0-1073741824:8>
@@ -216,7 +216,7 @@
 //   <i> May be set to 0 when timers are not used.
 //   <i> Default: 4
 #ifndef OS_TIMER_CB_QUEUE
-#define OS_TIMER_CB_QUEUE           4
+#define OS_TIMER_CB_QUEUE           9
 #endif
  
 // </h>
@@ -234,7 +234,7 @@
 //     <i> Defines maximum number of objects that can be active at the same time.
 //     <i> Applies to objects with system provided memory for control blocks.
 #ifndef OS_EVFLAGS_NUM
-#define OS_EVFLAGS_NUM              1
+#define OS_EVFLAGS_NUM              2
 #endif
  
 //   </e>
